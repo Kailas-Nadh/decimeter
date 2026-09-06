@@ -41,8 +41,9 @@
       ],
       "expo-secure-store",
       "react-native-edge-to-edge",
-      "expo-maps",
-      "@maplibre/maplibre-react-native"
+      "@maplibre/maplibre-react-native",
+      "expo-font",
+      "expo-image"
     ],
     "experiments": {
       "typedRoutes": true,
