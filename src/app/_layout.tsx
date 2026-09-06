@@ -20,6 +20,7 @@ export const RootLayout = () => {
   useEffect(() => {
     // Call this once your app has finished its initialization.
     markInteractive();
+    SplashScreen.hideAsync();
   }, [markInteractive]);
 
   return (

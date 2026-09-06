@@ -22,6 +22,9 @@
       "permissions": [
         "ACCESS_COARSE_LOCATION",
         "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
         "ACCESS_BACKGROUND_LOCATION"
       ]
     },
@@ -55,6 +58,12 @@
         "projectId": "4d0caf98-d792-4662-97ea-ea7f8011b5c3"
       }
     },
-    "owner": "kailasnadhj-team"
+    "owner": "kailasnadhj-team",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4d0caf98-d792-4662-97ea-ea7f8011b5c3"
+    }
   }
 }
