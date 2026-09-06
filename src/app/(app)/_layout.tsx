@@ -1,4 +1,5 @@
 import { Tabs } from "expo-router";
+import { Navigation, AudioLines } from "lucide-react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export const AppLayout = () => {
@@ -16,6 +17,7 @@ export const AppLayout = () => {
         options={{
           title: "Decibel Meter",
           tabBarLabel: "Decibel Meter",
+          tabBarIcon: ({ color, size }) => <AudioLines color={color} size={size} />,
         }}
       />
       <Tabs.Screen
@@ -23,6 +25,9 @@ export const AppLayout = () => {
         options={{
           title: "ISS Tracker",
           tabBarLabel: "ISS Tracker",
+          tabBarIcon: ({ color, size }) => (
+            <Navigation color={color} size={size} />
+          ),
         }}
       />
     </Tabs>

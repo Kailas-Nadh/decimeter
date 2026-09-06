@@ -4,7 +4,7 @@
     "slug": "deci-meter",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/Decimeter.png",
     "scheme": "decimeter",
     "userInterfaceStyle": "automatic",
     "ios": {
@@ -12,10 +12,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#0989CA",
+        "foregroundImage": "./assets/images/Decimeter-Foreground.png",
+        "backgroundImage": "./assets/images/Decimeter-Background.png",
+        "monochromeImage": "./assets/images/Decimeter-Monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
       "package": "com.naive.decimeter",
