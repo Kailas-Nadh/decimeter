@@ -18,7 +18,12 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.naive.decimeter"
+      "package": "com.naive.decimeter",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION"
+      ]
     },
     "web": {
       "output": "static",
@@ -35,7 +40,9 @@
         }
       ],
       "expo-secure-store",
-      "react-native-edge-to-edge"
+      "react-native-edge-to-edge",
+      "expo-maps",
+      "@maplibre/maplibre-react-native"
     ],
     "experiments": {
       "typedRoutes": true,

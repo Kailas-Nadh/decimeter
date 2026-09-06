@@ -19,10 +19,10 @@ export const AppLayout = () => {
         }}
       />
       <Tabs.Screen
-        name="net-speed"
+        name="iss-tracker"
         options={{
-          title: "Net Speed",
-          tabBarLabel: "Net Speed",
+          title: "ISS Tracker",
+          tabBarLabel: "ISS Tracker",
         }}
       />
     </Tabs>
